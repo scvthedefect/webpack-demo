@@ -2,17 +2,25 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
+
+  "__comment__" : "设为private禁止发布该项目",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+
+    "__comment__" : "可以使用 npm run build 代替 npx webpack --config webpack.config.js 对项目进行构建",
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lawrence",
   "license": "ISC",
+
+  "__comment__": "Runtime dependencies",
   "dependencies": {
     "lodash": "^4.17.21"
   },
+
+  "__comment__": "Compile dependencies",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
